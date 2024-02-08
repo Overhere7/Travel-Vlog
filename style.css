@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    height: 7%;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: transparent; */
+    padding: 30px 18%;
+    transition: ease .40s;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #000;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color:#000 ;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 22px;
+    border-radius: 5px;
+    transition: ease .40s;
+    text-decoration: none;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a:hover{
+    /* background: ; */
+    /* color: ; */
+    box-shadow: 5px 10px 30px rgb(85 85 85 /20%);
+    border-radius: 5px;
+}
+.menus{
+    /* color: ; */
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+section{
+    padding: 80px 18%;
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(https://images.pexels.com/photos/2825237/pexels-photo-2825237.jpeg?auto=compress&cs=tinysrgb&w=1200);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+    align-items: center;
+}
+.home-text h1{
+    font-size: 75px;
+    line-height: 1;
+    color: #000;
+    font-family: 'sans-serif';
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.home-text p{
+    color: #dadada;
+    font-size:28px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+.home-btn{
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 30px;
+    background: #ffffffbf;
+    color: red;
+    border-radius: 4px;
+    transition: ease .40s;
+    text-decoration: none;
+}
+.home-btn:hover{
+    background: #fff;
+    transform: scale(1.1);
+}
+.text h2{
+    font-size: 32px;
+    line-height: 1.1;
+}
+.row-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    grid-gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+.containe-box{
+   
+    border: 1px solid #f0eded;
+}
